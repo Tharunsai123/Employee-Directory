@@ -56,6 +56,23 @@ employee-directory/
 
 ---
 
+## 📸 Screenshots _(Optional but Recommended)_
+
+> Add screenshots in a `/screenshots` folder and embed them here, e.g.:
+
+- **📋 Main Dashboard Grid View**
+- **➕ Add/Edit Modal Form**
+- **📱 Mobile Responsive Layout**
+- **🔍 Sidebar Filters and Search**
+- **❌ Delete Confirmation Popup**
+
+You can embed like this:
+```markdown
+![Main View](screenshots/main-view.png)
+```
+
+---
+
 ## 💭 Reflection
 
 ### 🔧 Challenges Faced
@@ -81,6 +98,11 @@ employee-directory/
 - **🖼️ Profile Image Uploads**: Let users upload photos for employees.  
 - **🌙 Dark Mode Toggle**: Use CSS custom properties to enable light/dark themes.  
 - **↩️ Undo/Redo Functionality**: Revert user actions with a change history stack.  
+- **🧪 Unit Testing**: Add test coverage for filtering, validation, and sorting.  
+- **🔍 Accessibility**: Add ARIA labels, keyboard navigation, and screen reader support.  
+- **📦 Modular Structure**: Split script.js into smaller reusable modules.  
+- **📡 Optional API Support**: Replace local storage with server-based persistence.  
+- **⚡ Performance**: Virtualize the employee list for handling large datasets.
 
 ---
 
@@ -99,3 +121,9 @@ employee-directory/
 - CSS3 (Grid, Flexbox, Variables, Media Queries)  
 - Vanilla JavaScript (ES6+)  
 - Freemarker (Optional - if dynamic template rendering is integrated)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — feel free to use and modify for personal or educational use.
