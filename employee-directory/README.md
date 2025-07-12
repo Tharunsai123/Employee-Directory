@@ -1,4 +1,4 @@
-# Employee Directory Web Interface
+# 👩‍💼 Employee Directory Web Interface
 
 A responsive web application for managing employee records with search, filter, and sort capabilities.
 
@@ -17,48 +17,45 @@ A responsive web application for managing employee records with search, filter, 
 
 ## 🛠 Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (ES6+)
+- HTML5  
+- CSS3  
+- Vanilla JavaScript (ES6+)  
 - Freemarker Templates (for rendering employee list views)
 
 > No frameworks or libraries used — 100% dependency-free!
 
 ---
 
-## 💭 Reflection
+## 🚀 Setup & Run Instructions
 
-### 🔧 Challenges Faced
+> No installation or server is required. Just open the HTML file in the browser.
 
-- **State Management**: Without a framework, centralizing and synchronizing state across components was complex.
-- **Responsive Design**: Ensuring the sidebar filter remained accessible and clean on small screens took several design iterations.
-- **Form Validation**: Balancing thorough checks with a smooth user experience required thoughtful design.
-- **Pagination Logic**: Tying together pagination with filtered and searched data was tricky.
-- **Performance**: Debouncing search and minimizing DOM re-renders helped maintain speed on large datasets.
-- 
+### Steps:
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/your-username/employee-directory.git
+   cd employee-directory
 ---
-
-## 📘 Key Learnings
-
-- Plan state management carefully to avoid future rework.
-- CSS variables make theming and styling more scalable.
-- Vanilla JavaScript is powerful and sufficient for many real-world apps.
-- Accessibility and keyboard support shouldn't be an afterthought.
-- Good documentation saves hours of confusion later.
-
----
-
-## 📸 Screenshots
-
-> _(Add your own screenshots below. Recommended dimensions: 800x500px)_
-
-- Main Employee Table Grid  
-- Add/Edit Employee Modal  
-- Responsive Filter Sidebar  
-- Mobile View  
-- Delete Confirmation Modal
-
----
-
-## 📂 Project Structure
-
+employee-directory/
+│
+├── index.html          # Main HTML file containing:
+│                       # - Page structure and layout
+│                       # - Modal templates
+│                       # - Filter sidebar
+│                       # - Employee grid container
+│
+├── styles.css          # Complete styling including:
+│                       # - CSS variables for theming
+│                       # - Responsive grid layouts
+│                       # - Modal/sidebar animations
+│                       # - Mobile-responsive design
+│
+├── script.js           # Application logic containing:
+│                       # - State management
+│                       # - Event handlers
+│                       # - CRUD operations
+│                       # - Search/filter/sort logic
+│                       # - Form validation
+│                       # - Local storage integration
+│
+└── README.md           # Project documentation
